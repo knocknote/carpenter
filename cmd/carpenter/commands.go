@@ -5,7 +5,7 @@ import (
 	"os"
 
 	"github.com/codegangsta/cli"
-	"github.com/dev-cloverlab/carpenter/cmd/carpenter/command"
+	"github.com/knocknote/carpenter/cmd/carpenter/command"
 )
 
 var GlobalFlags = []cli.Flag{

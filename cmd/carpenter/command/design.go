@@ -7,8 +7,8 @@ import (
 	"os"
 
 	"github.com/codegangsta/cli"
-	"github.com/dev-cloverlab/carpenter/designer"
-	"github.com/dev-cloverlab/carpenter/dialect/mysql"
+	"github.com/knocknote/carpenter/designer"
+	"github.com/knocknote/carpenter/dialect/mysql"
 )
 
 func CmdDesign(c *cli.Context) {
