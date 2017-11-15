@@ -4,7 +4,7 @@ import (
 	"database/sql"
 	"strings"
 
-	"github.com/dev-cloverlab/carpenter/dialect/mysql"
+	"github.com/knocknote/carpenter/dialect/mysql"
 )
 
 func Export(db *sql.DB, schema string, tableName string) (string, error) {

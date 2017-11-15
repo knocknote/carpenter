@@ -10,8 +10,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/dev-cloverlab/carpenter/builder"
-	"github.com/dev-cloverlab/carpenter/dialect/mysql"
+	"github.com/knocknote/carpenter/builder"
+	"github.com/knocknote/carpenter/dialect/mysql"
 	_ "github.com/go-sql-driver/mysql"
 )
 

@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"reflect"
 
-	"github.com/dev-cloverlab/carpenter/dialect/mysql"
+	"github.com/knocknote/carpenter/dialect/mysql"
 )
 
 var (

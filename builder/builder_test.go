@@ -10,7 +10,7 @@ import (
 	"testing"
 
 	_ "github.com/go-sql-driver/mysql"
-	"github.com/dev-cloverlab/carpenter/dialect/mysql"
+	"github.com/knocknote/carpenter/dialect/mysql"
 )
 
 var (
@@ -50,7 +50,7 @@ func TestSingleCreate(t *testing.T) {
 			"	unique key `name` (`name`),\n" +
 			"	key `k1` (`deleted_at`),\n" +
 			"	key `k2` (`gender`,`country`)\n" +
-			") engine=InnoDB default charset=utf8",
+			") engine=InnoDB default charset=utf8 row_format=Dynamic",
 	}
 	actual, err := Build(db, nil, new[0])
 	if err != nil {

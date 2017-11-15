@@ -10,7 +10,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/dev-cloverlab/carpenter/dialect/mysql"
+	"github.com/knocknote/carpenter/dialect/mysql"
 	_ "github.com/go-sql-driver/mysql"
 )
 
